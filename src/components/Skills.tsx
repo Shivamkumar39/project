@@ -62,7 +62,7 @@ const Skills = () => {
         { name: 'VS Code', level: 85 },
         { name: 'Android Studio', level: 70 },
         { name: 'Testing', level: 85 },
-        { name: 'Agile', level: 90 }
+        { name: 'Postman/Thunder Client', level: 90 }
       ]
     }
   ];
