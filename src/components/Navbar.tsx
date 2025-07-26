@@ -24,11 +24,13 @@ const Navbar = () => {
   ];
 
   const handleDownloadCV = () => {
-    // Replace with your actual CV file path
     const link = document.createElement('a');
-    link.href = 'https://www.canva.com/design/DAGoPhDGqsg/ZlDyBw-ufKDn1SJAeoELEA/view?utm_content=DAGoPhDGqsg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1150fb2468'; // Adjust the path as necessary
-    link.download = 'shivam kumar (4).pdf';
+    window.open('https://drive.google.com/file/d/137uYcp7bo2P2dy8Wz5bOua9twRF9_UX8/view?usp=sharing', '_blank');
+   // link.href = 'https://drive.google.com/file/d/137uYcp7bo2P2dy8Wz5bOua9twRF9_UX8/view?usp=sharing';
+    link.download = 'https://drive.google.com/file/d/137uYcp7bo2P2dy8Wz5bOua9twRF9_UX8/view?usp=sharing'; // Update with your CV file path
+    document.body.appendChild(link);
     link.click();
+    document.body.appendChild(link);
   };
 
   return (
