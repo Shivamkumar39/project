@@ -25,7 +25,7 @@ const Hero = () => {
     { icon: Github, href: 'https://github.com/Shivamkumar39', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/shivam-kumar--/', label: 'LinkedIn' },
     { icon: Webhook, href: 'https://stech-services.vercel.app/', label: 'Website' },
-    { icon: LeetcodeIcon, href: 'https://leetcode.com/Shivamkumar39/', label: 'Leetcode' },
+    { icon: LeetcodeIcon, href: 'https://leetcode.com/u/Shivam_kumar12345/', label: 'Leetcode' },
     { icon: Mail, href: 'mailto:shivamkumar950835@gmail.com', label: 'Email' },
     
   ];
