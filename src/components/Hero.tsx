@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Twitter, Mail, ChevronDown, Webhook } from 'lucide-react';
 import profileimage from '../public/Passport_Photograph.jpg';
-
+import LeetcodeIcon from './LeetcodeIocn';
 const Hero = () => {
   const [currentText, setCurrentText] = useState(0);
   const skills = [
@@ -25,7 +25,9 @@ const Hero = () => {
     { icon: Github, href: 'https://github.com/Shivamkumar39', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/shivam-kumar--/', label: 'LinkedIn' },
     { icon: Webhook, href: 'https://stech-services.vercel.app/', label: 'Website' },
+    { icon: LeetcodeIcon, href: 'https://leetcode.com/Shivamkumar39/', label: 'Leetcode' },
     { icon: Mail, href: 'mailto:shivamkumar950835@gmail.com', label: 'Email' },
+    
   ];
 
   return (
