@@ -268,6 +268,10 @@ const Contact = () => {
                   </>
                 )}
               </motion.button>
+              <span className="text-red-500 font-normal">
+                Something went wrong with the backend. Please connect via WhatsApp or Email.
+              </span>
+
             </form>
           </motion.div>
         </div>
