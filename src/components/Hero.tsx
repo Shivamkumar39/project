@@ -108,10 +108,10 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
           >
             <button className="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-500/25">
-              View My Work
+              <a href='#projects'>View My Work</a>
             </button>
             <button className="border-2 border-green-500 text-green-400 hover:bg-green-500 hover:text-black px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
-              Get In Touch
+             <a href='#contact'>Get In Touch</a>
             </button>
           </motion.div>
         </motion.div>

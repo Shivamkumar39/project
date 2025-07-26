@@ -26,8 +26,8 @@ const Navbar = () => {
   const handleDownloadCV = () => {
     // Replace with your actual CV file path
     const link = document.createElement('a');
-    link.href = '/cv.pdf';
-    link.download = 'John_Doe_CV.pdf';
+    link.href = 'https://www.canva.com/design/DAGoPhDGqsg/ZlDyBw-ufKDn1SJAeoELEA/view?utm_content=DAGoPhDGqsg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1150fb2468'; // Adjust the path as necessary
+    link.download = 'shivam kumar (4).pdf';
     link.click();
   };
 
